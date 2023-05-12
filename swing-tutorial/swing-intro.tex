@@ -1,0 +1,21 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage{mathpazo,minted}
+\usepackage[svgnames]{xcolor}
+\usepackage{hyperref,microtype}
+\hypersetup{
+  colorlinks,
+  linkcolor=magenta,
+  pdfauthor={Ethan Meng},
+  pdftitle={A very basic introduction to Swing},
+  pdfsubject={AP Computer Science A (June 6, 2022)},
+}
+\setcounter{secnumdepth}{-1}
+% The color minted used as its example
+\definecolor{beige}{HTML}{F0F0E0}
+\setminted{bgcolor=beige!75,linenos,frame=single}
+\setmintedinline{bgcolor={}}
+
+\begin{document}
+\input \jobname-content\relax
+\end{document}

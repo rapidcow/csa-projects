@@ -1,0 +1,13 @@
+.DS_Store
+# compiled java code
+*.class
+*.jar
+bin/
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+_minted-*/
+# generated stuff
+*.pdf
+*-content.tex
